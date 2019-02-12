@@ -23,3 +23,29 @@ vi catalog/models.py
 python3 manage.py createsuperuser
 vi manage.py 
 python3 manage.py createsuperuser
+cd django_projects/
+cd locallibrary/
+ls
+python3 manage.py createsuperuser
+python3 manage.py runserver
+cd catalog/
+vi urls.py 
+ls
+cd
+cd django_projects/
+cd locallibrary/
+ls
+cd locallibrary/
+ls
+vi settings.py 
+cd
+cd django_projects/
+cd locallibrary/
+vi manage.py 
+cd catalog/
+vi urls.py 
+vi
+vi urls.py 
+vi models.py 
+cd 
+exit

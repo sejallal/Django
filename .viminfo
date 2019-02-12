@@ -10,15 +10,26 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
-:wq
-|2,0,1549000950,,"wq"
 :q!
-|2,0,1548881070,,"q!"
+|2,0,1549939002,,"q!"
+:wq
+|2,0,1549938909,,"wq"
+:q
+|2,0,1549314071,,"q"
+:qa 
+|2,0,1549226392,,"qa "
 :WQ
 |2,0,1547680689,,"WQ"
 
 # Search String History (newest to oldest):
+??\a
+|2,1,1549226385,63,"\\a"
+? @$
+|2,1,1549226385,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -27,235 +38,500 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	BLOCK	0
+""0	CHAR	0
 	 
-|3,1,36,2,1,0,1548186553," "
+|3,1,0,0,1,0,1549226385," "
+"-	BLOCK	0
+	 
+|3,0,36,2,1,0,1548186553," "
 
 # File marks:
-'0  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,48,6,78,1549000950,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
-'1  13  18  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,49,13,18,1549000762,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
-'2  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,50,15,13,1549000028,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
-'3  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,51,1,0,1549000012,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
-'4  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,52,1,0,1549000012,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
-'5  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,53,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
-'6  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,54,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
-'7  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,55,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
-'8  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,56,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
-'9  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,57,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
+'0  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,48,35,0,1549939002,"~/django_projects/locallibrary/catalog/urls.py"
+'1  11  18  ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html
+|4,49,11,18,1549938909,"~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html"
+'2  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,50,15,13,1549938769,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+'3  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,51,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+'4  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,52,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+'5  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,53,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+'6  28  9  ~/django_projects/locallibrary/catalog/templates/base_generic.html
+|4,54,28,9,1549937675,"~/django_projects/locallibrary/catalog/templates/base_generic.html"
+'7  19  13  ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html
+|4,55,19,13,1549937537,"~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html"
+'8  16  13  ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html
+|4,56,16,13,1549937537,"~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html"
+'9  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,57,72,81,1549937470,"~/django_projects/locallibrary/catalog/views.py"
 
 # Jumplist (newest first):
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1549000950,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  13  18  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,39,13,18,1549000762,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
--'  13  18  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,39,13,18,1549000762,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,39,1,0,1549000031,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,39,1,0,1549000031,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1549000028,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1549000028,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1549000028,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1549000028,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,39,1,0,1549000012,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,39,1,0,1549000012,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,39,1,0,1549000012,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_list.html
-|4,39,1,0,1549000012,"~/django_projects/locallibrary/catalog/templates/catalog/author_list.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,15,13,1548999954,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548997909,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html
-|4,39,1,0,1548884444,"~/django_projects/locallibrary/catalog/templates/catalog/author_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  39  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,39,1548884047,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
--'  6  78  ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
-|4,39,6,78,1548883788,"~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549939002,"~/django_projects/locallibrary/catalog/urls.py"
+-'  11  18  ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html
+|4,39,11,18,1549938909,"~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html"
+-'  11  18  ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html
+|4,39,11,18,1549938909,"~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html"
+-'  19  13  ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html
+|4,39,19,13,1549938866,"~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html"
+-'  19  13  ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html
+|4,39,19,13,1549938866,"~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html"
+-'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,39,15,13,1549938769,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+-'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,39,15,13,1549938769,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+-'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,39,15,13,1549938769,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+-'  15  13  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,39,15,13,1549938769,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+-'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,39,1,0,1549938752,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+-'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,39,1,0,1549938752,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+-'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,39,1,0,1549938752,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+-'  1  0  ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+|4,39,1,0,1549938752,"~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html"
+-'  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,39,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+-'  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,39,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+-'  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,39,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+-'  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,39,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+-'  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,39,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+-'  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,39,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+-'  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,39,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+-'  113  71  ~/django_projects/locallibrary/catalog/views.py
+|4,39,113,71,1549938702,"~/django_projects/locallibrary/catalog/views.py"
+-'  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,39,72,81,1549938429,"~/django_projects/locallibrary/catalog/views.py"
+-'  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,39,72,81,1549938429,"~/django_projects/locallibrary/catalog/views.py"
+-'  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,39,72,81,1549938429,"~/django_projects/locallibrary/catalog/views.py"
+-'  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,39,72,81,1549938429,"~/django_projects/locallibrary/catalog/views.py"
+-'  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,39,72,81,1549938429,"~/django_projects/locallibrary/catalog/views.py"
+-'  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,39,72,81,1549938429,"~/django_projects/locallibrary/catalog/views.py"
+-'  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,39,72,81,1549938429,"~/django_projects/locallibrary/catalog/views.py"
+-'  72  81  ~/django_projects/locallibrary/catalog/views.py
+|4,39,72,81,1549938429,"~/django_projects/locallibrary/catalog/views.py"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+-'  35  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,35,0,1549938362,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  31  0  ~/django_projects/locallibrary/catalog/urls.py
+|4,39,31,0,1549938355,"~/django_projects/locallibrary/catalog/urls.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  22  18  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,22,18,1549938338,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
+-'  1  0  ~/django_projects/locallibrary/catalog/forms.py
+|4,39,1,0,1549938179,"~/django_projects/locallibrary/catalog/forms.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/django_projects/locallibrary/catalog/urls.py
+	*	1549938999	0
+	"	35	0
+	^	35	1
+	.	36	0
+	+	9	0
+	+	7	0
+	+	21	4
+	+	22	0
+	+	23	0
+	+	5	140
+	+	5	2
+	+	23	0
+	+	7	0
+	+	5	3
+	+	6	77
+	+	6	78
+	+	8	0
+	+	6	78
+	+	8	0
+	+	7	69
+	+	24	257
+	+	24	165
+	+	24	122
+	+	24	223
+	+	24	245
+	+	25	19
+	+	27	0
+	+	31	0
+	+	35	0
+	+	36	0
+
+> ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html
+	*	1549938908	0
+	"	11	18
+	^	11	19
+	.	12	0
+	+	19	13
+	+	20	0
+	+	12	0
+	+	11	18
+	+	12	0
+
+> ~/django_projects/locallibrary/catalog/templates/catalog/book_renew_librarian.html
+	*	1549938768	0
+	"	15	13
+	^	15	14
+	.	15	13
+	+	15	13
+
+> ~/django_projects/locallibrary/catalog/views.py
+	*	1549938701	0
+	"	113	71
+	^	113	72
+	.	113	71
+	+	2	0
+	+	33	56
+	+	33	57
+	+	6	161
+	+	33	0
+	+	33	57
+	+	33	0
+	+	7	0
+	+	39	0
+	+	43	0
+	+	44	0
+	+	40	0
+	+	39	3
+	+	40	0
+	+	50	19
+	+	50	625
+	+	50	19
+	+	50	97
+	+	50	117
+	+	46	18
+	+	39	18
+	+	50	97
+	+	51	0
+	+	23	0
+	+	29	32
+	+	33	0
+	+	33	57
+	+	33	508
+	+	34	0
+	+	60	116
+	+	72	81
+	+	73	0
+	+	113	71
+
+> ~/django_projects/locallibrary/catalog/forms.py
+	*	1549938336	0
+	"	22	18
+	^	22	19
+	.	22	18
+	+	8	96
+	+	1	15
+	+	4	50
+	+	5	54
+	+	22	18
+
+> ~/django_projects/locallibrary/catalog/templates/base_generic.html
+	*	1549937675	0
+	"	28	9
+	^	28	10
+	.	27	69
+	+	58	6
+	+	11	62
+	+	19	54
+	+	20	38
+	+	21	0
+	+	20	35
+	+	11	1
+	+	12	0
+	+	37	49
+	+	54	13
+	+	54	0
+	+	33	6
+	+	24	8
+	+	25	8
+	+	30	7
+	+	31	8
+	+	32	7
+	+	33	7
+	+	23	0
+	+	25	67
+	+	11	63
+	+	11	62
+	+	2	0
+	+	27	79
+	+	26	50
+	+	27	69
+
+> ~/django_projects/locallibrary/catalog/models.py
+	*	1549937227	0
+	"	73	69
+	^	73	70
+	.	73	69
+	+	13	23
+	+	102	235
+	+	14	0
+	+	102	0
+	+	102	235
+	+	13	0
+	+	102	0
+	+	102	234
+	+	102	28
+	+	102	3
+	+	102	28
+	+	102	3
+	+	44	45
+	+	40	3
+	+	102	0
+	+	103	0
+	+	6	0
+	+	2	42
+	+	55	0
+	+	3	24
+	+	62	0
+	+	61	21
+	+	61	50
+	+	61	112
+	+	61	131
+	+	61	124
+	+	62	0
+	+	70	134
+	+	70	17
+	+	70	45
+	+	70	107
+	+	70	139
+	+	71	0
+	+	84	0
+	+	80	3
+	+	81	7
+	+	82	11
+	+	83	7
+	+	85	0
+	+	73	69
+
+> ~/django_projects/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_user.html
+	*	1549328695	0
+	"	19	13
+	^	19	14
+	.	19	14
+	+	19	14
+
+> ~/django_projects/locallibrary/catalog/admin.py
+	*	1549327940	0
+	"	39	3
+	^	39	4
+	.	39	3
+	+	11	0
+	+	12	28
+	+	43	0
+	+	27	79
+	+	27	289
+	+	27	58
+	+	46	75
+	+	28	0
+	+	48	0
+	+	2	0
+	+	39	4
+	+	40	0
+	+	33	0
+	+	32	4
+	+	33	7
+	+	34	7
+	+	35	7
+	+	36	7
+	+	37	7
+	+	38	7
+	+	39	3
+
+> ~/django_projects/locallibrary/templates/registration/logged_out.html
+	*	1549326386	0
+	"	6	13
+	^	6	14
+	.	6	13
+	+	6	13
+
+> ~/django_projects/locallibrary/locallibrary/settings.py
+	*	1549326279	0
+	"	125	23
+	^	125	24
+	.	125	23
+	+	50	0
+	+	37	0
+	+	59	53
+	+	60	0
+	+	125	23
+
+> ~/django_projects/locallibrary/templates/registration/login.html
+	*	1549326176	0
+	"	40	13
+	^	40	14
+	.	40	13
+	+	40	13
+
+> ~/django_projects/locallibrary/locallibrary/urls.py
+	*	1549325726	0
+	"	38	0
+	^	38	1
+	.	38	0
+	+	33	1
+	+	38	0
+
+> ~/django_projects/locallibrary/manage.py
+	*	1549313865	0
+	"	1	21
+	^	1	22
+	.	1	22
+	+	2	0
+	+	1	22
+
+> ~/django_projects/locallibrary/catalog/templates/index.html
+	*	1549228578	0
+	"	14	108
+	^	14	109
+	.	14	108
+	+	2	0
+	+	1	32
+	+	14	108
 
 > ~/django_projects/locallibrary/catalog/templates/catalog/book_detail.html
 	*	1549000949	0
@@ -337,42 +613,6 @@
 	+	15	13
 	+	15	14
 
-> ~/django_projects/locallibrary/catalog/views.py
-	*	1548883650	0
-	"	34	18
-	^	34	19
-	.	35	0
-	+	2	0
-	+	28	56
-	+	29	0
-	+	6	161
-	+	28	0
-	+	29	0
-	+	28	0
-	+	7	0
-	+	34	0
-	+	38	0
-	+	39	0
-	+	35	0
-	+	34	3
-	+	35	0
-
-> ~/django_projects/locallibrary/catalog/templates/base_generic.html
-	*	1548883232	0
-	"	43	13
-	^	43	14
-	.	43	13
-	+	47	6
-	+	11	62
-	+	19	54
-	+	20	38
-	+	21	0
-	+	20	35
-	+	11	1
-	+	12	0
-	+	26	49
-	+	43	13
-
 > ~/django_projects/locallibrary/catalog/templates/catalog/book_list.html
 	*	1548882485	0
 	"	9	83
@@ -385,23 +625,6 @@
 	+	10	0
 	+	9	43
 	+	10	0
-
-> ~/django_projects/locallibrary/catalog/urls.py
-	*	1548881916	0
-	"	6	77
-	^	6	78
-	.	6	77
-	+	9	0
-	+	7	0
-	+	21	4
-	+	22	0
-	+	23	0
-	+	5	140
-	+	5	2
-	+	23	0
-	+	7	0
-	+	5	3
-	+	6	77
 
 > catalog/book_list.html
 	*	1548881065	0
@@ -427,56 +650,3 @@
 	^	1	43
 	.	2	0
 	+	2	0
-
-> ~/django_projects/locallibrary/catalog/templates/index.html
-	*	1548696995	0
-	"	1	32
-	^	1	33
-	.	2	0
-	+	2	0
-
-> ~/django_projects/locallibrary/catalog/admin.py
-	*	1548229024	0
-	"	38	0
-	^	38	0
-	.	38	0
-	+	11	0
-	+	12	28
-	+	33	0
-	+	27	79
-	+	27	289
-	+	27	58
-	+	36	75
-	+	28	0
-	+	38	0
-
-> ~/django_projects/locallibrary/manage.py
-	*	1548228846	0
-	"	1	0
-
-> ~/django_projects/locallibrary/catalog/models.py
-	*	1548226943	0
-	"	92	0
-	^	92	0
-	.	38	3
-	+	11	23
-	+	92	235
-	+	12	0
-	+	92	0
-	+	92	235
-	+	11	0
-	+	92	0
-	+	92	234
-	+	92	28
-	+	92	3
-	+	92	28
-	+	93	0
-	+	42	45
-	+	38	3
-
-> ~/django_projects/locallibrary/locallibrary/urls.py
-	*	1547680698	0
-	"	34	0
-	^	34	0
-	.	33	1
-	+	33	1
